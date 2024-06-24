@@ -34,7 +34,7 @@ def make_request_with_retry(url, headers, data, max_retries=5, timeout_duration=
 url = 'https://api.openai.com/v1/chat/completions'
 headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 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'
+    'Authorization': 'Bearer sxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 }
 for word in vocabulary:
     data = {
